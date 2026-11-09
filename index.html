@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="style.css">
+
+    <title>Wedding Invitation</title>
+</head>
+
+<body>
+
+<main class="website">
+
+    <!-- =====================================================
+         FRAME 1 - ENVELOPE
+    ====================================================== -->
+
+    <section class="invitation-frame envelope-frame">
+
+        <div class="phone-container">
+
+            <div class="envelope" id="envelope">
+
+                <!-- Envelope Body -->
+                <img src="images/body2.png"
+                     class="env body"
+                     alt="Envelope">
+
+                <!-- Closed Envelope -->
+                <img src="images/closeHead2.png"
+                     class="env close-head"
+                     id="closeHead"
+                     alt="Closed envelope">
+
+                <!-- Open Envelope -->
+                <img src="images/openHead2.png"
+                     class="env open-head"
+                     id="openHead"
+                     alt="Open envelope">
+
+                <!-- Empty Open Envelope -->
+                <img src="images/openEmpty2.png"
+                     class="env open-empty"
+                     id="openEmpty"
+                     alt="Open envelope">
+
+                <!-- Invitation Paper -->
+                <img src="images/paper.png"
+                     class="env paper"
+                     id="paper"
+                     alt="Wedding invitation">
+
+                <!-- Flowers -->
+                <img src="images/flowerEnvelope.png"
+                     class="env flowers"
+                     id="flowers"
+                     alt="Decorative flowers">
+
+                <!-- Open Text -->
+                <div class="stamp-text"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FRAME 2 - BISMILLAH
+    ====================================================== -->
+
+    <section class="invitation-frame bismillah-frame">
+
+        <img src="images/bismillah1.6.png"
+             class="invitation-image"
+             alt="Bismillah">
+
+    </section>
+
+
+    <!-- =====================================================
+         FRAME 3 - DATE, TIME & COUNTDOWN
+    ====================================================== -->
+
+    <section class="invitation-frame date-frame" id="dateFrame">
+
+        <div class="date-content">
+
+            <!-- Date & Time Image -->
+            <img src="images/dateNtime1.3.1.png"
+                 class="invitation-image"
+                 alt="Date and time">
+
+            <!-- Map Buttons -->
+            <div class="map-buttons">
+
+                <!-- Google Maps -->
+                <a href="https://maps.app.goo.gl/xJwAFchjJTMAJhDRA"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="map-button">
+
+                    <img src="images/google map.png"
+                         alt="Google Maps">
+
+                    <span style="font-size: 13px;
+                    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.800);">Google Maps</span>
+
+                </a>
+
+                <!-- Waze -->
+                <a href="https://ul.waze.com/ul?venue_id=68026383.680394903.23716079&overview=yes&utm_campaign=live_map&utm_source=waze_website&utm_medium=lm_share_location"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="map-button">
+
+                    <img src="images/waze.png"
+                         alt="Waze">
+
+                   <span style="font-size: 13px;  
+                    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.800);">Waze</span>
+
+                </a>
+
+            </div>
+
+            <!-- Countdown -->
+            <div class="container">
+
+                <div class="title"; style=" text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.367);">
+                    Days Until The Event
+                </div>
+
+                <div class="countdown-box">
+
+                    <div class="time">
+                        <span id="days">00</span>
+                        <p>Days</p>
+                    </div>
+
+                    <div class="time">
+                        <span id="hours">00</span>
+                        <p>Hours</p>
+                    </div>
+
+                    <div class="time">
+                        <span id="minutes">00</span>
+                        <p>Minutes</p>
+                    </div>
+
+                    <div class="time">
+                        <span id="seconds">00</span>
+                        <p>Seconds</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FRAME 4 - LOCATION
+    ====================================================== -->
+
+    <section class="invitation-frame location-frame">
+
+        <img src="images/location1.1.png"
+             class="invitation-image"
+             alt="Location">
+
+    </section>
+
+  <!-- =====================================================
+     FRAME 5 - DRESS CODE
+====================================================== -->
+
+<section class="invitation-frame dresscode-frame"
+         id="dresscodeFrame"
+         role="button"
+         tabindex="0"
+         aria-label="Reveal the dress code">
+
+    <!-- Curtains -->
+    <img src="images/curtainLeft.png"
+         class="dresscode-layer curtain-left"
+         id="curtainLeft"
+         alt="">
+
+    <img src="images/curtainRight.png"
+         class="dresscode-layer curtain-right"
+         id="curtainRight"
+         alt="">
+
+    <!-- Wardrobe -->
+    <img src="images/wardrobeClose.png"
+         class="dresscode-layer wardrobe-close"
+         id="wardrobeClose"
+         alt="">
+
+    <img src="images/wardrobeOpen.png"
+         class="dresscode-layer wardrobe-open"
+         id="wardrobeOpen"
+         alt="">
+
+    <!-- Dress code information -->
+    <img src="images/dresscode.png"
+         class="dresscode-layer dresscode-info"
+         id="dresscode"
+         alt="Dress code information">
+
+</section>
+
+
+    <!-- =====================================================
+         PUBLIC WEDDING WISHES
+    ====================================================== -->
+
+    <section class="wishes-frame invitation-frame" id="wishesFrame">
+
+        <div class="wishes-content">
+
+            <p class="wishes-eyebrow">
+                A little love from our guests
+            </p>
+
+            <h2>Wishes for the Couple</h2>
+
+            <p class="wishes-intro">
+                Your kind words will make our day even more special.
+            </p>
+
+            <div id="wishesList"
+                 class="wishes-list"
+                 aria-live="polite">
+
+                <p class="wishes-loading">
+                    Loading lovely wishes...
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         BOTTOM NAVIGATION
+         PLACED AFTER PUBLIC WEDDING WISHES
+    ====================================================== -->
+
+    <nav class="bottom-nav" aria-label="Wedding navigation">
+
+        <div class="button-group">
+
+            <!-- DATE -->
+            <button type="button"
+                    class="cssbuttons-io"
+                    onclick="openInfoPopup('datePopup')">
+
+                <span class="button-label">Date</span>
+
+                <span class="star star-1">🪻</span>
+                <span class="star star-2">🌷</span>
+                <span class="star star-3">🌹</span>
+                <span class="star star-4">🌼</span>
+                <span class="star star-5">🌻</span>
+                <span class="star star-6">🌿</span>
+
+            </button>
+
+
+            <!-- LOCATION -->
+            <button type="button"
+                    class="cssbuttons-io"
+                    onclick="openInfoPopup('locationPopup')">
+
+                <span class="button-label">Location</span>
+
+                <span class="star star-1">🪻</span>
+                <span class="star star-2">🌷</span>
+                <span class="star star-3">🌹</span>
+                <span class="star star-4">🌼</span>
+                <span class="star star-5">🌻</span>
+                <span class="star star-6">🌿</span>
+
+            </button>
+
+
+            <!-- CONTACT -->
+            <button type="button"
+                    class="cssbuttons-io"
+                    onclick="openInfoPopup('contactPopup')">
+
+                <span class="button-label">Contact</span>
+
+                <span class="star star-1">🪻</span>
+                <span class="star star-2">🌷</span>
+                <span class="star star-3">🌹</span>
+                <span class="star star-4">🌼</span>
+                <span class="star star-5">🌻</span>
+                <span class="star star-6">🌿</span>
+
+            </button>
+
+
+            <!-- RSVP -->
+            <button type="button"
+                    onclick="openRsvpPopup()"
+                    class="cssbuttons-io">
+
+                <span class="button-label">RSVP</span>
+
+                <span class="star star-1">🌹</span>
+                <span class="star star-2">🌻</span>
+                <span class="star star-3">🌷</span>
+                <span class="star star-4">🪻</span>
+                <span class="star star-5">🌿</span>
+                <span class="star star-6">🌼</span>
+
+            </button>
+
+        </div>
+
+    </nav>
+
+</main>
+
+
+<!-- ================= DATE POPUP ================= -->
+
+<div class="info-popup"
+     id="datePopup"
+     onclick="closeInfoPopupOutside(event, 'datePopup')">
+
+    <div class="info-popup-content">
+
+        <button class="info-close"
+                onclick="closeInfoPopup('datePopup')"
+                aria-label="Close">&times;</button>
+
+        <h2>Wedding Day</h2>
+
+        <div class="popup-flower">🌷</div>
+
+        <p class="popup-heading">Date</p>
+        <p>30 January 2027</p>
+
+        <p class="popup-heading">Time</p>
+        <p>12.00 p.m.</p>
+
+    </div>
+
+</div>
+
+
+<!-- ================= LOCATION POPUP ================= -->
+
+<div class="info-popup"
+     id="locationPopup"
+     onclick="closeInfoPopupOutside(event, 'locationPopup')">
+
+    <div class="info-popup-content location-popup-content">
+
+        <button class="info-close"
+                onclick="closeInfoPopup('locationPopup')"
+                aria-label="Close">&times;</button>
+
+        <h2>Wedding Location</h2>
+
+        <div class="popup-flower">🌷</div>
+
+        <!-- Map preview using your existing Google Maps location -->
+        <iframe
+            class="location-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.427328558204!2d103.8141119749661!3d1.5129896984728288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da6d3e72087e55%3A0xd0e038145df803f3!2sKOTAK%20GLASS%2F%2FHOUSE!5e0!3m2!1sen!2smy!4v1792256108279!5m2!1sen!2smy"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Wedding location map">
+        </iframe>
+
+        <div class="popup-map-buttons">
+
+            <a href="https://maps.app.goo.gl/xJwAFchjJTMAJhDRA"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="map-button">
+
+                <img src="images/google map.png"
+                     alt="Google Maps">
+
+                <span style="color: rgb(70, 97, 66)">
+                    Google Maps
+                </span>
+
+            </a>
+
+            <a href="https://ul.waze.com/ul?venue_id=68026383.680394903.23716079&overview=yes&utm_campaign=live_map&utm_source=waze_website&utm_medium=lm_share_location"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="map-button">
+
+                <img src="images/waze.png"
+                     alt="Waze">
+
+                <span style="color: rgb(70, 97, 66)">
+                    Waze
+                </span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= CONTACT POPUP ================= -->
+
+<div class="info-popup"
+     id="contactPopup"
+     onclick="closeInfoPopupOutside(event, 'contactPopup')">
+
+    <div class="info-popup-content">
+
+        <button class="info-close"
+                onclick="closeInfoPopup('contactPopup')"
+                aria-label="Close">&times;</button>
+
+        <h2>Contact Us</h2>
+
+        <div class="popup-flower">🌷</div>
+
+        <p class="contact-description">
+            For enquiries, please contact:
+        </p>
+
+        <a class="phone-link"
+           href="https://wa.me/60195507831"
+           target="_blank"
+           rel="noopener noreferrer">
+            019-5507831
+        </a>
+
+        <a class="phone-link"
+           href="https://wa.me/60197787831"
+           target="_blank"
+           rel="noopener noreferrer">
+            019-7787831
+        </a>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     WHIMSICAL RSVP POPUP
+========================================================== -->
+
+<div id="rsvpPopup" class="rsvp-popup">
+
+    <div class="popup-content">
+
+        <!-- Decorative flowers -->
+
+        <div class="popup-header">
+
+            <div class="rsvp-title">
+
+                <span class="rsvp-eyebrow">
+                    A little note for our special day
+                </span>
+
+                <h2>Kindly RSVP</h2>
+
+                <p>
+                    It would mean the world to have you with us.
+                </p>
+
+            </div>
+
+            <button type="button"
+                    class="close-btn"
+                    onclick="closePopup()"
+                    aria-label="Close RSVP popup">
+                &times;
+            </button>
+
+        </div>
+
+
+        <div class="rsvp-form">
+
+            <!-- Name -->
+            <label for="nameInput">
+                Your lovely name
+            </label>
+
+            <input type="text"
+                   id="nameInput"
+                   placeholder="Please enter your name"
+                   required>
+
+
+            <!-- Attendance -->
+            <label>
+                Will you join our celebration?
+            </label>
+
+            <div class="radio-group">
+
+                <label class="rsvp-choice">
+
+                    <input type="radio"
+                           name="attend"
+                           value="yes">
+
+                    <span class="choice-icon">♡</span>
+                    <span>Joyfully accepts</span>
+
+                </label>
+
+
+                <label class="rsvp-choice">
+
+                    <input type="radio"
+                           name="attend"
+                           value="maybe">
+
+                    <span class="choice-icon">✿</span>
+                    <span>Not sure yet</span>
+
+                </label>
+
+
+                <label class="rsvp-choice">
+
+                    <input type="radio"
+                           name="attend"
+                           value="no">
+
+                    <span class="choice-icon">☁</span>
+                    <span>Sadly declines</span>
+
+                </label>
+
+            </div>
+
+
+            <!-- Number of guests -->
+            <label for="attendeesInput">
+                Number of guests
+            </label>
+
+            <input type="number"
+                   id="attendeesInput"
+                   min="1"
+                   max="20"
+                   value="1"
+                   required
+                   placeholder="e.g. 2">
+
+
+            <!-- Wishes -->
+            <label for="wishBox">
+                A little wish for the couple 💌
+            </label>
+
+            <textarea id="wishBox"
+                      placeholder="Leave us a sweet message..."
+                      rows="3"></textarea>
+
+
+            <!-- Submit -->
+            <button type="button" class="submit-btn">
+
+                <span>Send with love</span>
+                <span class="submit-heart">♡</span>
+
+            </button>
+
+            <p id="rsvpStatus"
+               class="rsvp-status"
+               role="status"
+               aria-live="polite"></p>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <audio id="backgroundMusic" loop preload="auto" playsinline>
+    <source src="music/edaWeddingBGsong.mp3" type="audio/mpeg">
+</audio>
+
+<button id="musicToggle" class="music-toggle"
+        type="button"
+        aria-label="Pause background music"
+        aria-pressed="true">
+    <span id="musicIcon">🔊</span>
+</button>
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
